@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    align-items: center;
+    margin-top: 200px;
+  }
+}
+.img {
+  height: 50px;
+  width: 160px;
+}
+@media screen and (min-width: 768px) {
+  .img {
+    height: 150px;
+    width: 400px;
+  }
+}
+.search-container {
+  width: 250px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 8px 0px #bfbfbf;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+}
+.list-input {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 7px;
+}
+@media screen and (min-width: 768px) {
+  .list-input {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 10px;
+  }
+}
+.search-logo {
+  width: 17px;
+  height: 17px;
+}
+@media screen and (min-width: 768px) {
+  .search-logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+.input {
+  color: #64748b;
+  border: none;
+  width: 100%;
+  height: 30px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    height: 45px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+}
